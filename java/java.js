@@ -5,7 +5,7 @@ $(document).ready(function () {
 });
 
 
-$("#mystory").text("Hei! Olen Arto Lindgren, olen opiskelijana Saimaan ammattikorkeakoulussa. Tällä sivustolla kerron taidoistani ja esittelen portfolion tähän astisista projekteistani.");
+$("#mystory").text("Hei! Olen Arto Lindgren, olen opiskelijana Saimaan ammattikorkeakoulussa. Tällä sivustolla kerron taidoistani ja esittelen portfolion tähänastisista projekteistani.");
 
 $("#contact").text("Sähköposti:");
 
