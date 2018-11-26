@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FF6E40;
+}
+header {
+    background-color: #FFFF;
+    height: 10%;
+    width: 100%;
+    font-size: 50px;
+}
+
+footer {
+    padding: 10px;
+    background-color: #FFFF;
+    width: 100%;
+    clear: both;
+    position: relative;
+    margin-top: 400px;
+}
+nav {
+    display: flex;
+    text-align: center;
+}
+
+
+.left {
+    float:left;
+    width: 5%;
+}
+
+.main {
+    float:left;
+    width: 90%;
+}
+  
+
+.logo {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: 5px;
+    left: 20px;
+}
+
+
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+nav ul li a {
+    display: block;
+    outline: none;
+    text-transform: uppercase;
+    color: #FF6E40;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 1.2px;
+}
+
+.link-block::after {
+    content: '';
+    display: block;
+    border-radius: 4px;
+    margin-left: 25%;
+    width: 0;
+    height: 2px;
+    background: #FF6E40;
+    transition: width .3s;
+}
+
+.link-block:hover::after {
+    width: 50%;
+    transition: width .3s;
+}
+
+.parallax { 
+    background-image: url('../img/question-mark-2492009_1280.jpg');
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxTwo { 
+    background-image: url('../img/question-mark-2492009_1280.jpg');
+    height: 100px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-size: 80px;
+}
+h5 {
+    color:#FF6E40;
+}
+span {
+    font-size: 30px;
+    
+}
+.line {
+    position: absolute;
+    margin-top: 5%;
+    width: 3em;
+    font-size: 200px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #FF6E40;
+}
+
+.anim-typewriter {
+    animation: typewriter 1s steps(40) 1s 1 normal both,
+    blinkTextCursor 800ms steps(4) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 8em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color:transparent;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.sections {
+    height: 1100px;
+    background-color: #FFFF;
+    font-size:20px;
+     color: #FF6E40;
+}
+.sectionsTwo {
+    height: 800px;
+    background-color: #FFFF;
+    font-size:20px;
+     color: #FF6E40;
+}
+
+
+
+@media (min-width: 768px) {
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
