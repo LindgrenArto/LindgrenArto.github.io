@@ -1,6 +1,7 @@
 $(document).ready(function () {
     // Activate Carousel
     $("#carousel").carousel();
+    $("#carousel").stop();
 
 });
 

@@ -168,7 +168,6 @@ span {
 
 @media (min-width: 768px) {
     .carousel-caption p {
-        margin-bottom: 20px;
         font-size: 21px;
         line-height: 1.4;
     }
@@ -176,5 +175,11 @@ span {
 @media only screen and (max-device-width: 1366px) {
     .parallax {
         background-attachment: scroll;
+    }
+}
+@media (min-width: 768px) {
+    image-resolution:  {
+        height: 150px;
+        width: 150px;
     }
 }
