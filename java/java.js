@@ -6,7 +6,9 @@ $(document).ready(function () {
 });
 
 
-$("#mystory").text("Hei! Olen Arto Lindgren, olen opiskelijana Saimaan ammattikorkeakoulussa. Tällä sivustolla kerron taidoistani ja esittelen portfolion tähänastisista projekteistani.");
+$("#mystory").text("Hei! Olen Arto Lindgren, olen opiskelijana Saimaan ammattikorkeakoulussa." + 
+ " Tällä sivustolla kerron taidoistani ja esittelen portfolion tähänastisista projekteistani. Olen 25 vuotias tulevaisuuden osaaja ja taitoni kehittyvät nopeasti." + 
+ " Harrastan liikuntaa lähes päivittäin ja pidän muutenkin itseni terävänä ja valmiudessa koko ajan. Pidän myös lukemisesta, elokuvista sekä sijoittamisesta.");
 
 $("#contact").text("Sähköposti:");
 
